@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply dark:bg-kokushoku dark:text-ghost-white bg-ghost-white text-kokushoku;
+  }
+}
+
+@layer components {
+  .button-secondary {
+    @apply border-2 border-ghost-white text-ghost-white px-5 py-2 rounded-md;
+  }
+  .button-primary {
+    @apply border-2 bg-ghost-white text-kokushoku px-5 py-2 rounded-md;
+  }
+}
